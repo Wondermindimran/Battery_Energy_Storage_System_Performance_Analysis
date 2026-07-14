@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data — raw .mat files are large, so i exclude them
+data/raw/
+
+# System files
+.DS_Store
+Thumbs.db
