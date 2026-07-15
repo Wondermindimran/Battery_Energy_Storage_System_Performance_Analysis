@@ -31,9 +31,9 @@ https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository
 
 **Rated capacity:** 2.0 Ahr
 
-**Experiment period (B0005):** 2 April 2008 – 27 May 2008 (55 days)
+**Experiment period (B0005):** 2 April 2008 to 27 May 2008 (55 days)
 
-**End-of-life criterion:** 30% capacity fade from rated — 1.4 Ahr threshold
+**End-of-life criterion:** 30% capacity fade from rated; 1.4 Ahr threshold
 
 **Note:** This analysis focuses on Battery B0005 as the primary subject. The dataset includes three additional batteries (B0006, B0007, B0018) which were analysed comparatively. B0005 primary analysis period is 55 days with 168 discharge cycles, 170 charge cycles, and 278 impedance measurements.
 
@@ -183,11 +183,11 @@ Project_2_BESS/
 
 ## Limitations
 
-- Primary analysis covers Battery B0005 only — a single 18650-format Li-ion cell
+- Primary analysis covers Battery B0005 only; a single 18650-format Li-ion cell
 - Laboratory conditions with controlled constant-current cycling do not replicate real-world variable load profiles
-- No calendar aging is captured — only cycle aging from continuous charge-discharge
+- No calendar aging is captured; only cycle aging from continuous charge-discharge
 - Cell-level findings may not directly scale to module or pack-level BESS performance
-- No financial data available — operational impact estimates are based on duration and capacity metrics only
+- No financial data available; operational impact estimates are based on duration and capacity metrics only
 
 
 ## Author
