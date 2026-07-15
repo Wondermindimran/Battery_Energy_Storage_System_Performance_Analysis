@@ -42,10 +42,10 @@ https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository
 
 | Tool | Purpose |
 |---|---|
-| Python 3 — scipy.io | Extract nested MATLAB .mat structure into pandas DataFrames |
-| Python 3 — pandas | Data cleaning, feature engineering, KPI calculation |
-| Python — matplotlib, seaborn | EDA charts and visualisations |
-| SQLite + DB Browser | SQL analysis — 15 business queries |
+| Python 3 (scipy.io) | Extract nested MATLAB .mat structure into pandas DataFrames |
+| Python 3 (pandas) | Data cleaning, feature engineering, KPI calculation |
+| Python (matplotlib, seaborn) | EDA charts and visualisations |
+| SQLite + DB Browser | SQL analysis (15 business queries) |
 | Tableau Public | Interactive 3-page dashboard |
 | VS Code + Jupyter Notebook | Development environment |
 | GitHub | Version control and portfolio hosting |
@@ -53,11 +53,11 @@ https://ti.arc.nasa.gov/tech/dash/groups/pcoe/prognostic-data-repository
 
 ## Key Data Engineering Challenge
 
-The NASA Battery dataset is stored in MATLAB .mat format — a nested binary structure that cannot be opened with standard CSV tools. The primary data engineering challenge in this project was extracting usable tabular data from this format.
+The NASA Battery dataset is stored in MATLAB .mat format, a nested binary structure that cannot be opened with standard CSV tools. The primary data engineering challenge in this project was extracting usable tabular data from this format.
 
 Each battery file contains a top-level cycle array where every element is a dictionary with keys for cycle type (charge, discharge, or impedance), ambient temperature, timestamp, and a nested data dictionary containing the actual measurements. Discharge cycles contain up to 7 time-series measurement arrays per cycle. Extracting summary statistics from each cycle into a flat DataFrame required looping through 616 cycles per battery and computing per-cycle aggregations.
 
-This extraction work; which most portfolio projects never encounter — demonstrates the ability to work with real engineering data formats used by NASA, research institutions, and industrial BESS operators.
+This extraction work; which most portfolio projects never encounter, demonstrates the ability to work with real engineering data formats used by NASA, research institutions, and industrial BESS operators.
 
 
 ## Key Data Quality Findings
@@ -97,7 +97,7 @@ This extraction work; which most portfolio projects never encounter — demonstr
 
 4. **Degradation was progressive and predictable, not sudden.** Life stage analysis shows a consistent SOH decline from 90.66% in early life to 66.40% at end of life, with no abrupt step-changes. This confirms that condition-based monitoring could detect approaching EOL well in advance.
 
-5. **Charge duration shortened by 14.67 minutes from early to late life.** A degraded battery charges faster because it holds less energy. This counterintuitive signal — shorter charge time — is an early operational warning of reduced capacity.
+5. **Charge duration shortened by 14.67 minutes from early to late life.** A degraded battery charges faster because it holds less energy. This counterintuitive signal (shorter charge time) is an early operational warning of reduced capacity.
 
 B0005 was the second-worst performer in a four-battery comparative analysis. B0006 degraded fastest (41.75% fade, EOL at cycle 109), B0007 was most resilient (24.25% fade, never reached EOL), and B0018 crossed EOL earliest relative to its cycle count (cycle 97 of 132). The comparative analysis is presented in the Battery Health Overview dashboard.
 
@@ -150,7 +150,7 @@ Project_2_BESS/
 
 1. Clone this repository
    ```
-   git clone https://github.com/[yourusername]/project2-bess
+   git clone https://github.com/Wondermindimran/Battery_Energy_Storage_System_Performance_Analysis/
    ```
 
 2. Install dependencies
