@@ -1,1 +1,1 @@
-Tableau dashboard public link: https://public.tableau.com/views/BATTERYHEALTHANALYSIS/BatteryHealthOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+Tableau dashboard public link: https://public.tableau.com/app/profile/muhammad.imran6647/viz/BATTERYHEALTHANALYSIS/BatteryHealthOverview?publish=yes

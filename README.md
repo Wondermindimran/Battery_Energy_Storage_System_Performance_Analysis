@@ -2,7 +2,8 @@
 
 **A data analytics portfolio project by Muhammad Imran**
 
-[![Tableau Dashboard](https://img.shields.io/badge/Dashboard-Tableau_Public-blue)](https://public.tableau.com/views/BATTERYHEALTHANALYSIS/BatteryHealthOverview?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[![Tableau Dashboard](https://img.shields.io/badge/Dashboard-Tableau_Public-blue)](https://public.tableau.com/app/profile/muhammad.imran6647/viz/BATTERYHEALTHANALYSIS/BatteryHealthOverview?publish=yes)
+
 
 
 ![alt text](<Battery Health Overview.png>)
@@ -97,6 +98,8 @@ This extraction work; which most portfolio projects never encounter — demonstr
 4. **Degradation was progressive and predictable, not sudden.** Life stage analysis shows a consistent SOH decline from 90.66% in early life to 66.40% at end of life, with no abrupt step-changes. This confirms that condition-based monitoring could detect approaching EOL well in advance.
 
 5. **Charge duration shortened by 14.67 minutes from early to late life.** A degraded battery charges faster because it holds less energy. This counterintuitive signal — shorter charge time — is an early operational warning of reduced capacity.
+
+B0005 was the second-worst performer in a four-battery comparative analysis. B0006 degraded fastest (41.75% fade, EOL at cycle 109), B0007 was most resilient (24.25% fade, never reached EOL), and B0018 crossed EOL earliest relative to its cycle count (cycle 97 of 132). The comparative analysis is presented in the Battery Health Overview dashboard.
 
 
 ## Recommendations
