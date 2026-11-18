@@ -1,4 +1,4 @@
-# Battery Energy Storage System (BESS) Operations Analysis
+# Battery Energy Storage System (BESS) Analysis
 
 **A data analytics portfolio project by Muhammad Imran**
 
