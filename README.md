@@ -2,7 +2,8 @@
 
 **A data analytics portfolio project by Muhammad Imran**
 
-[![Tableau Dashboard](https://img.shields.io/badge/Dashboard-Tableau_Public-blue)](https://public.tableau.com/app/profile/muhammad.imran6647/viz/BATTERYHEALTHANALYSIS/BatteryHealthAnalysis)
+[![Tableau Dashboard](https://img.shields.io/badge/Dashboard-Tableau_Public-blue)](
+https://public.tableau.com:9443/views/BATTERYHEALTHANALYSIS/BatteryHealthAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 
 
