@@ -6,8 +6,6 @@
 
 
 
-![alt text](<Battery Health Overview.png>)
-
 ## Business Problem
 
 Battery B0005 was subjected to continuous charge and discharge cycling until it reached end-of-life. The operations team needed to understand how battery capacity degraded over time, when the battery crossed the end-of-life threshold, what physical mechanisms drove that degradation, and how much operational impact the capacity loss created in terms of reduced discharge duration.
